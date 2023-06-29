@@ -1,0 +1,30 @@
+.App {
+	text-align: center;
+}
+
+input.inputBox {
+	font-size: 22px;
+	padding: 5px 8px 4px 8px;
+	border-radius: 3px;
+	border: 1px solid #666;
+}
+
+.calendarWrap {
+	display: inline-block;
+	position: relative;
+}
+
+.calendarElement {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 40px;
+	border: 1px solid black;
+	z-index: 999;
+}
+
+.whereTo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
